@@ -3,6 +3,7 @@ package basepackage;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,6 +13,7 @@ import utils.ConfigReader;
 public class BaseClass {
 
 	protected static WebDriver driver;
+	protected static JavascriptExecutor js;
 
 	public void init() throws IOException {
 		WebDriverManager.chromedriver().setup();
@@ -19,6 +21,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		ConfigReader.initPropertyFile();
 		driver.get(ConfigReader.getValue("url"));
+		js = (JavascriptExecutor) driver;
 
 	}
 
