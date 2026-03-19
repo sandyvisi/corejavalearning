@@ -2,20 +2,38 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T22:22:37 IST" name="naukri login suite" finished-at="2026-03-10T22:22:49 IST" duration-ms="12519">
+  <suite started-at="2026-03-18T23:34:52 IST" name="cogmento login suite" finished-at="2026-03-18T23:35:05 IST" duration-ms="13105">
     <groups>
     </groups>
-    <test started-at="2026-03-10T22:22:37 IST" name="naukri test" finished-at="2026-03-10T22:22:49 IST" duration-ms="12519">
-      <class name="parallelExecution.ParallelEexecutin">
-        <test-method signature="edge()[pri:2, instance:parallelExecution.ParallelEexecutin@5395ea39]" started-at="2026-03-10T22:22:37 IST" name="edge" finished-at="2026-03-10T22:22:49 IST" duration-ms="12422" status="PASS">
+    <test started-at="2026-03-18T23:34:52 IST" name="naukri test" finished-at="2026-03-18T23:35:05 IST" duration-ms="13105">
+      <class name="testcases.LoginTestCases">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testcases.LoginTestCases@5b43fbf6]" started-at="2026-03-18T23:34:52 IST" name="initBrowser" finished-at="2026-03-18T23:34:59 IST" duration-ms="7225" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- edge -->
-        <test-method signature="chrome()[pri:1, instance:parallelExecution.ParallelEexecutin@5395ea39]" started-at="2026-03-10T22:22:37 IST" name="chrome" finished-at="2026-03-10T22:22:45 IST" duration-ms="8402" status="PASS">
+        </test-method> <!-- initBrowser -->
+        <test-method signature="loginFunctions(java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTestCases@5b43fbf6]" started-at="2026-03-18T23:35:00 IST" name="loginFunctions" data-provider="loginData" finished-at="2026-03-18T23:35:01 IST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priy.santhosh1992@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saibaba1@3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chrome -->
-      </class> <!-- parallelExecution.ParallelEexecutin -->
+        </test-method> <!-- loginFunctions -->
+      </class> <!-- testcases.LoginTestCases -->
+      <class name="testcases.ContactTestCases">
+        <test-method signature="contactSideBarFunctions()[pri:2, instance:testcases.ContactTestCases@5b07730f]" started-at="2026-03-18T23:35:01 IST" name="contactSideBarFunctions" finished-at="2026-03-18T23:35:05 IST" duration-ms="4052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSideBarFunctions -->
+      </class> <!-- testcases.ContactTestCases -->
     </test> <!-- naukri test -->
-  </suite> <!-- naukri login suite -->
+  </suite> <!-- cogmento login suite -->
 </testng-results>

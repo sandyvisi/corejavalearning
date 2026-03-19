@@ -26,6 +26,7 @@ public class LoginTestPage extends BaseClass {
 		enterUserName(loginLocator, userName);
 		enterPassword(passwordLocator, password);
 		clickSubmit(submitLocator);
+
 	}
 
 }

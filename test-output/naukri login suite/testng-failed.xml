@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="methods" name="Failed suite [naukri login suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="methods" name="naukri test(failed)">
+<suite name="Failed suite [naukri login suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="naukri test(failed)">
     <classes>
-      <class name="parallelExecution.ParallelEexecutin">
+      <class name="testcases.ContactTestCases">
         <methods>
-          <include name="chrome"/>
+          <include name="contactSidebasActions"/>
         </methods>
-      </class> <!-- parallelExecution.ParallelEexecutin -->
+      </class> <!-- testcases.ContactTestCases -->
     </classes>
   </test> <!-- naukri test(failed) -->
 </suite> <!-- Failed suite [naukri login suite] -->

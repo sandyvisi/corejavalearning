@@ -6,6 +6,7 @@ import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,18 +14,18 @@ import basepackage.BaseClass;
 import testsclasses.LoginTestPage;
 import utils.ReadExcelSheet;
 
-public class LoginTestClass {
+public class LoginTestCases {
 
 	BaseClass bc;
 	LoginTestPage loginpage;
 
-	@BeforeClass
+	@BeforeTest
 	public void initBrowser() throws IOException {
 		bc = new BaseClass();
 		bc.init();
 	}
 
-	@Test(dataProvider = "loginData")
+	@Test(dataProvider = "loginData", priority = 1)
 	public void loginFunctions(String userName, String password) {
 		loginpage = new LoginTestPage();
 		loginpage.loginFunctions(userName, password);
@@ -35,11 +36,6 @@ public class LoginTestClass {
 
 		return ReadExcelSheet.excelDatas();
 
-	}
-
-	@AfterClass
-	public void closeBrowser() {
-		bc.tearDown();
 	}
 
 }
