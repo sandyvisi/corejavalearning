@@ -10,7 +10,7 @@ public class ContacsTestPage extends BaseClass {
 	private By creaeteLocator = By.xpath("//div[@class='item']//a/button[text()='Create']");
 	private By contactIcon = By.xpath("//div//a[contains(@href,'contacts')]");
 
-//
+
 //	private void clickContactSideBar(By locator) {
 //
 //		click(locator);
