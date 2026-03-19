@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import testsclasses.ContacsTestPage;
@@ -14,9 +15,9 @@ public class ContactTestCases {
 		ct.contactActions();
 	}
 
-//	@AfterTest
-//	public void closeBrowser() {
-//		bc.tearDown();
-//	}
+	@AfterTest
+	public void closeBrowser() {
+		ct.tearDown();
+	}
 
 }
