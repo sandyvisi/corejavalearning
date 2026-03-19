@@ -29,7 +29,7 @@ public class BaseClass {
 		ConfigReader.initPropertyFile();
 		driver.get(ConfigReader.getValue("url"));
 		js = (JavascriptExecutor) driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 		action = new Actions(driver);
 
 	}

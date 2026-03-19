@@ -15,9 +15,9 @@ public class ContactTestCases {
 		ct.contactActions();
 	}
 
-	@AfterTest
-	public void closeBrowser() {
-		ct.tearDown();
-	}
+//	@AfterTest
+//	public void closeBrowser() {
+//		ct.tearDown();
+//	}
 
 }
