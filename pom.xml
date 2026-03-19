@@ -48,9 +48,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.2.5</version>
 					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>loginnaukri.xml</suiteXmlFile>
-						</suiteXmlFiles>
+<!--						<suiteXmlFiles>-->
+<!--							<suiteXmlFile>cogmento.xml</suiteXmlFile>-->
+<!--						</suiteXmlFiles>-->
 					</configuration>
 				</plugin>
 				<plugin>
