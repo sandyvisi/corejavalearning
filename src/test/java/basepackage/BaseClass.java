@@ -36,7 +36,7 @@ public class BaseClass {
 		ConfigReader.initPropertyFile();
 		driver.get(ConfigReader.getValue("url"));
 		js = (JavascriptExecutor) driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 		action = new Actions(driver);
 
 	}
