@@ -1,4 +1,4 @@
-package testsclasses;
+package testsPageClasses;
 
 public class MyDocumentsTestPage {
 

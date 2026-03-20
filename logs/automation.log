@@ -1283,3 +1283,13 @@
 
 [2026-03-20 22:40:46] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
 [2026-03-20 22:40:46] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+[2026-03-20 23:10:37] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\mylocalfolder\corejavalearning\cogmento.xml
+
+[2026-03-20 23:10:43] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+[2026-03-20 23:10:43] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+[2026-03-20 23:18:14] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\mylocalfolder\corejavalearning\cogmento.xml
+
+[2026-03-20 23:18:15] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+[2026-03-20 23:18:15] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe

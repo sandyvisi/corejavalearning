@@ -12,7 +12,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import basepackage.BaseClass;
-import testsclasses.LoginTestPage;
+import testsPageClasses.LoginTestPage;
 import utils.ReadExcelSheet;
 
 public class LoginTestCases {

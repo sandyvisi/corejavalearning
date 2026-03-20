@@ -2,6 +2,7 @@ package basepackage;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -38,6 +39,19 @@ public class BaseClass {
 		js = (JavascriptExecutor) driver;
 		wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 		action = new Actions(driver);
+
+	}
+
+	public void listOfElementsAndClickOneElement(By locator, String text) {
+		List<WebElement> elements = driver.findElements(locator);
+
+		for (WebElement element : elements) {
+
+			if (element.getText().equalsIgnoreCase(text)) {
+				element.click();
+			}
+
+		}
 
 	}
 

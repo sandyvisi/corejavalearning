@@ -3,7 +3,7 @@ package testcases;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-import testsclasses.ContacsTestPage;
+import testsPageClasses.ContacsTestPage;
 
 public class ContactTestCases {
 

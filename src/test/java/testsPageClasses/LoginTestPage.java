@@ -1,4 +1,4 @@
-package testsclasses;
+package testsPageClasses;
 
 import org.openqa.selenium.By;
 
