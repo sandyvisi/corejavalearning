@@ -5,6 +5,7 @@
 		<classes>
 			<class name="testcases.LoginTestCases"></class>
 			<class name="testcases.ContactTestCases"></class>
+			<class name="testcases.CallsTestCases"></class>
 		</classes>
 	</test>
 </suite>

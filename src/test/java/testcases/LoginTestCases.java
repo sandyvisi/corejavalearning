@@ -31,7 +31,8 @@ public class LoginTestCases {
 		loginpage = new LoginTestPage();
 		loginpage.loginFunctions(userName, password);
 		bc.waitForTitle();
-		Assert.assertEquals(bc.getTitle(), "Free CR");
+		Assert.assertEquals(bc.getTitle(), "Free CRM");
+		System.out.println(bc.getTitle());
 	}
 
 	@DataProvider(name = "loginData")

@@ -41,6 +41,10 @@ public class BaseClass {
 
 	}
 
+	public String getUrl() {
+		return driver.getCurrentUrl();
+	}
+
 	public void waitForTitle() {
 		wait.until(ExpectedConditions.titleContains("Free"));
 	}

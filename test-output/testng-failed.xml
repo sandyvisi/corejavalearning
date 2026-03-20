@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [cogmento login suite]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="cogmento test(failed)(failed)">
+<suite name="Failed suite [cogmento login suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="cogmento test(failed)">
     <classes>
-      <class name="testcases.ContactTestCases">
-        <methods>
-          <include name="contactSideBarFunctions"/>
-        </methods>
-      </class> <!-- testcases.ContactTestCases -->
       <class name="testcases.LoginTestCases">
         <methods>
-          <include name="initBrowser"/>
           <include name="loginFunctions" invocation-numbers="0"/>
+          <include name="initBrowser"/>
         </methods>
       </class> <!-- testcases.LoginTestCases -->
     </classes>
-  </test> <!-- cogmento test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [cogmento login suite]] -->
+  </test> <!-- cogmento test(failed) -->
+</suite> <!-- Failed suite [cogmento login suite] -->

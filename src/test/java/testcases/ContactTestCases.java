@@ -9,10 +9,11 @@ public class ContactTestCases {
 
 	ContacsTestPage ct;
 
-	@Test(priority = 2, dependsOnGroups = "smoke")
+	@Test(priority = 2, dependsOnGroups = "smoke", alwaysRun = true)
 	public void contactSideBarFunctions() {
 		ct = new ContacsTestPage();
 		ct.contactActions();
+
 	}
 
 //	@AfterTest

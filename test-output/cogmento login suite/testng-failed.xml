@@ -3,11 +3,6 @@
 <suite name="Failed suite [cogmento login suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="cogmento test(failed)">
     <classes>
-      <class name="testcases.ContactTestCases">
-        <methods>
-          <include name="contactSideBarFunctions"/>
-        </methods>
-      </class> <!-- testcases.ContactTestCases -->
       <class name="testcases.LoginTestCases">
         <methods>
           <include name="loginFunctions" invocation-numbers="0"/>
