@@ -3,6 +3,7 @@ package testcases;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -25,10 +26,12 @@ public class LoginTestCases {
 		bc.init();
 	}
 
-	@Test(dataProvider = "loginData", priority = 1)
+	@Test(dataProvider = "loginData", priority = 1, groups = "smoke")
 	public void loginFunctions(String userName, String password) {
 		loginpage = new LoginTestPage();
 		loginpage.loginFunctions(userName, password);
+		bc.waitForTitle();
+		Assert.assertEquals(bc.getTitle(), "Free CR");
 	}
 
 	@DataProvider(name = "loginData")

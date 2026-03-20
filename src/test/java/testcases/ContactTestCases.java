@@ -9,7 +9,7 @@ public class ContactTestCases {
 
 	ContacsTestPage ct;
 
-	@Test(priority = 2)
+	@Test(priority = 2, dependsOnGroups = "smoke")
 	public void contactSideBarFunctions() {
 		ct = new ContacsTestPage();
 		ct.contactActions();

@@ -24,14 +24,14 @@ public class BaseClass {
 	protected static WebDriverWait wait;
 
 	public void init() throws IOException {
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless"); // Run without GUI
-		options.addArguments("--disable-gpu");
-		options.addArguments("--window-size=1920,1080");
-		options.addArguments("--no-sandbox"); // required on some CI environments
-		options.addArguments("--disable-dev-shm-usage"); // for memory issues in CI
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--headless"); // Run without GUI
+//		options.addArguments("--disable-gpu");
+//		options.addArguments("--window-size=1920,1080");
+//		options.addArguments("--no-sandbox"); // required on some CI environments
+//		options.addArguments("--disable-dev-shm-usage"); // for memory issues in CI
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		ConfigReader.initPropertyFile();
 		driver.get(ConfigReader.getValue("url"));
@@ -39,6 +39,14 @@ public class BaseClass {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 		action = new Actions(driver);
 
+	}
+
+	public void waitForTitle() {
+		wait.until(ExpectedConditions.titleContains("Free"));
+	}
+
+	public String getTitle() {
+		return driver.getTitle();
 	}
 
 	public void waitAndClickElement(By locator) {

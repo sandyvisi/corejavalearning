@@ -1253,3 +1253,23 @@
 
 [2026-03-19 18:28:52] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.80 (resolved driver for Chrome 146)
 [2026-03-19 18:28:52] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.80\chromedriver.exe
+[2026-03-20 20:42:50] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\mylocalfolder\corejavalearning\cogmento.xml
+
+[2026-03-20 20:42:51] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+[2026-03-20 20:42:51] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+[2026-03-20 21:16:02] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\mylocalfolder\corejavalearning\cogmento.xml
+
+[2026-03-20 21:16:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+[2026-03-20 21:16:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+[2026-03-20 22:05:25] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\mylocalfolder\corejavalearning\cogmento.xml
+
+[2026-03-20 22:05:41] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+[2026-03-20 22:05:41] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+[2026-03-20 22:20:21] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\mylocalfolder\corejavalearning\test-output\testng-failed.xml
+
+[2026-03-20 22:20:22] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+[2026-03-20 22:20:22] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\santhosh\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
