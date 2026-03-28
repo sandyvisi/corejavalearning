@@ -25,7 +25,7 @@ public class BaseClass {
 	protected static WebDriverWait wait;
 
 	public void init() throws IOException {
-//		ChromeOptions options = new ChromeOptions();
+//		ChromeOptions options = new ChromeOptions(); sfsfds
 //		options.addArguments("--headless"); // Run without GUI
 //		options.addArguments("--disable-gpu");
 //		options.addArguments("--window-size=1920,1080");
@@ -37,7 +37,7 @@ public class BaseClass {
 		ConfigReader.initPropertyFile();
 		driver.get(ConfigReader.getValue("url"));
 		js = (JavascriptExecutor) driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		action = new Actions(driver);
 
 	}

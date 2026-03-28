@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
 <suite name="cogmento login suite">
-
+	<listeners>
+		<listener class-name="utils.ExtentReportManager"></listener>
+	</listeners>
 	<test name="cogmento test">
 		<classes>
 			<class name="testcases.LoginTestCases"></class>
 			<class name="testcases.ContactTestCases"></class>
 			<class name="testcases.CallsTestCases"></class>
-			<!-- <class name="testcases.LogoutTestCases"></class> -->
+			<class name="testcases.LogoutTestCases"></class>
 		</classes>
 	</test>
 </suite>

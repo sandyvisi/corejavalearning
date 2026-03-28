@@ -8,8 +8,7 @@ public class ContacsTestPage extends BaseClass {
 
 	private By contactSidebar = By.xpath("//div[@id='main-nav']//div//a/span[text()='Contacts']");
 	private By creaeteLocator = By.xpath("//div[@class='item']//a/button[text()='Create']");
-	private By contactIcon = By.xpath("//div//a[contains(@href,'contacts')]");
-
+	private By contactIcon = By.xpath("//div//a[contains(@hrefr,'contacts')]");
 
 //	private void clickContactSideBar(By locator) {
 //

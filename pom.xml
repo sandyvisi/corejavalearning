@@ -119,10 +119,24 @@
 			<version>2.22.1</version>
 		</dependency>
 
+		<!-- Source:
+		https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+			<scope>compile</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.22.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.15.1</version>
 		</dependency>
 
 		<dependency>
@@ -130,8 +144,5 @@
 			<artifactId>log4j-slf4j2-impl</artifactId>
 			<version>2.22.1</version>
 		</dependency>
-
 	</dependencies>
-
-
 </project>
