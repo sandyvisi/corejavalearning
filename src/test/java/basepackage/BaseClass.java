@@ -55,6 +55,11 @@ public class BaseClass {
 
 	}
 
+	public void clearValues(By locator) {
+		driver.findElement(locator).clear();
+
+	}
+
 	public String getUrl() {
 		return driver.getCurrentUrl();
 	}
